@@ -1,0 +1,55 @@
+.background { 
+	background-image: url("http://theexecutivecoach.com/members/wp-content/cool-backgrounds-for-powerpoint-presentations-i13.jpg");
+    table-layout: fixed;
+    border-spacing: 0;   
+}
+
+.background td { 
+	padding: 0;          
+}
+
+.lava { 
+	background: #ff0000;
+}
+
+.wall { 
+	background: #151515;  
+}
+
+.actor { 
+	position: absolute;  
+}
+
+.coin { 
+background: green; 
+}
+
+.player { 
+	background: #4d2d73; 
+}
+
+.lost .player {
+  background: #22379D;
+  transform: scale(-0.5);
+}
+.won .player {
+  background: #80aaff;
+}
+
+.block {
+	background: #000e1b;
+  transform: rotate(-90deg);
+}
+
+.floater { 
+	background: #000066; 
+}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+
